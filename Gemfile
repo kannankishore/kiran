@@ -27,6 +27,8 @@ gem 'heroku'
  group :production do
  gem 'pg'
  end
+ gem "friendly_id", "~> 4.0.0.beta8"
+
 
 gem 'therubyracer'
 #gem 'taps'
