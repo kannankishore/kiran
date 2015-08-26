@@ -10,8 +10,9 @@ class TutorsController < ApplicationController
   # GET /tutors/1
   # GET /tutors/1.json
   def show
-  end
 
+ 
+  end
   # GET /tutors/new
   def new
     @tutor = Tutor.new
